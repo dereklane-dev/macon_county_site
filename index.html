@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official Macon County website providing services, news, community updates, and local resources for residents, businesses, and visitors.">
+    <title>Macon County, NC</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Main navigation">
+            <div class="container">
+
+                <a class="navbar-brand brand-wrap d-flex align-items-center" href="index.html">
+                    <img src="images/mock-macon-county-north-carolina.png" alt="Macon County logo" class="brand-logo">
+                    <span class="brand-text">Macon County, NC</span>
+                </a>
+
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNav"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+
+                        <!-- GOVERNMENT -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Government
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="government.html">County Government</a></li>
+                            <li><a class="dropdown-item" href="government.html#departments">Departments</a></li>
+                            <li><a class="dropdown-item" href="government.html#commissioners">Commissioners</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- SERVICES -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Services
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html">County Services</a></li>
+                            <li><a class="dropdown-item" href="services.html#forms">Online Forms</a></li>
+                            <li><a class="dropdown-item" href="services.html#safety">Public Safety</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- COMMUNITY -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Community
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="community.html">Community Home</a></li>
+                            <li><a class="dropdown-item" href="community.html#events">Events</a></li>
+                            <li><a class="dropdown-item" href="community.html#news">News</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- BUSINESS -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Business
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="business.html">Business Resources</a></li>
+                            <li><a class="dropdown-item" href="business.html#starting">Starting a Business</a></li>
+                            <li><a class="dropdown-item" href="business.html#development">Economic Development</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- VISIT -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Visit
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="visit.html">Visit Macon County</a></li>
+                            <li><a class="dropdown-item" href="visit.html#attractions">Attractions</a></li>
+                            <li><a class="dropdown-item" href="visit.html#parks">Parks & Recreation</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- CONTACT -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <h1 class="visually-hidden">Macon County, North Carolina</h1>
+
+    <!-- HERO / CAROUSEL -->
+    <div class="container image-max">
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button 
+                    type="button" 
+                    data-bs-target="#mainCarousel" 
+                    data-bs-slide-to="0" 
+                    class="active" 
+                    aria-current="true" 
+                    aria-label="Slide 1: Waterfall in Macon County">
+                </button>
+
+                <button 
+                    type="button" 
+                    data-bs-target="#mainCarousel" 
+                    data-bs-slide-to="1" 
+                    aria-label="Slide 2: Community events in Macon County">
+                </button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="images/macon_county_waterfall.jpg" class="d-block w-100" alt="Waterfall in Macon County North Carolina" loading="lazy">
+                    <div class="carousel-caption">
+                        <h2>Welcome to Macon County</h2>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/macon_county_community_event.jpg" class="d-block w-100" alt="Community event in Macon County" loading="lazy">
+                    <div class="carousel-caption">
+                        <h2>Community Events & News</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- QUICK LINKS -->
+    <section class="container my-5 text-center quick-links">
+        <h2 class="visually-hidden">Quick Links</h2>
+        <div class="row g-3">
+            <div class="col-md-3"><a href="services.html#forms">Online Forms</a></div>
+            <div class="col-md-3"><a href="services.html#safety">Public Safety</a></div>
+            <div class="col-md-3"><a href="community.html#events">Events</a></div>
+            <div class="col-md-3"><a href="community.html#news">News</a></div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <main>
+
+        <!-- MAIN CONTENT -->
+        <section class="container my-5">
+            <h2>Latest News & Updates</h2>
+
+            <article class="news-item">
+                <h3>April 10, 2026 - Road Improvement Project Begins</h3>
+                <p>
+                    Macon County has begun improvements on several major roadways to enhance safety and traffic flow. 
+                    Residents may experience minor delays during construction hours.
+                </p>
+            </article>
+
+            <article class="news-item">
+                <h3>April 5, 2026 - New Public Park Opens</h3>
+                <p>
+                    The county has officially opened a new public park featuring walking trails, playground equipment, 
+                    and picnic areas for community use.
+                </p>
+            </article>
+
+            <article class="news-item">
+                <h3>March 28, 2026 - Spring Cleanup Event Announced</h3>
+                <p>
+                    Residents are encouraged to participate in the annual spring cleanup event to help maintain a clean 
+                    and healthy environment across the county.
+                </p>
+            </article>
+
+            <div class="section-divider"></div>
+
+            <h2>Community Highlights</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="highlight-box">
+                        <h3>Local Farmers Market</h3>
+                        <p>
+                            The Macon County Farmers Market continues to bring fresh, locally grown produce and handmade goods 
+                            to the community every Saturday morning.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="highlight-box">
+                        <h3>Parks & Recreation Programs</h3>
+                        <p>
+                            Seasonal programs and youth activities are now open for registration, offering opportunities for 
+                            residents of all ages to stay active and engaged.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <p><a href="community.html">View all news & events →</a></p>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="text-center text-white p-4">
+        <p>&copy; 2026 Macon County, NC</p>
+        <p class="footer-contact">Contact: info@maconcountync.gov</p>
+    </footer>
+
+    <!-- Bootstrap JS (for navbar + carousel) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
